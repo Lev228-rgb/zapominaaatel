@@ -112,3 +112,95 @@ public class MainView extends HorizontalLayout
         grid.setItems(list);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package org.example;
+public class Person
+
+ {
+     public String name = "";
+     public String sname = "";
+     public String email = "";
+     public String age = "";
+     public Person(String name, String sname, String email, String age)
+     {
+         this.name = name;
+         this.sname = sname;
+         this.email = email;
+         this.age = age;
+
+     }
+
+     public String getName() {
+         return name;
+     }
+
+     public void setName(String name) {
+         this.name = name;
+     }
+
+     public String getSname() {
+         return sname;
+     }
+
+     public void setSname(String sname) {
+         this.sname = sname;
+     }
+
+     public String getEmail() {
+         return email;
+     }
+
+     public void setEmail(String email) {
+         this.email = email;
+     }
+
+     public String getAge() {
+         return age;
+     }
+
+     public void setAge(String age) {
+         this.age = age;
+     }
+
+ }
